@@ -1,0 +1,78 @@
+{
+  "type": "SharedSlice",
+  "id": "hero_banner",
+  "name": "Hero Banner",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "description": "Standard hero banner layout.",
+      "version": "initial",
+      "imageUrl": "",
+      "docURL": "...",
+      "primary": {
+        "badge_label": {
+          "type": "Text",
+          "config": {
+            "label": "Badge Label"
+          }
+        },
+        "badge_subtext": {
+          "type": "Text",
+          "config": {
+            "label": "Badge Subtext"
+          }
+        },
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "multi": "heading1,strong,em,hyperlink",
+            "label": "Main Heading"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "multi": "paragraph,strong,em,hyperlink",
+            "label": "Description"
+          }
+        },
+        "ctas": {
+          "type": "Group",
+          "config": {
+            "label": "Call to Actions",
+            "fields": {
+              "cta_label": {
+                "type": "Text",
+                "config": {
+                  "label": "Button Label"
+                }
+              },
+              "cta_link": {
+                "type": "Link",
+                "config": {
+                  "label": "Button Link",
+                  "allowText": false,
+                  "repeat": false,
+                  "select": null
+                }
+              },
+              "cta_primary": {
+                "type": "Boolean",
+                "config": {
+                  "label": "Is Primary Button?"
+                }
+              }
+            }
+          }
+        },
+        "dashboard_image": {
+          "type": "Image",
+          "config": {
+            "label": "Dashboard Screenshot"
+          }
+        }
+      }
+    }
+  ]
+}

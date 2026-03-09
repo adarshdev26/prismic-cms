@@ -1,0 +1,98 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"badge_label": {
+				"__TYPE__": "FieldContent",
+				"value": "giant",
+				"type": "Text"
+			},
+			"badge_subtext": {
+				"__TYPE__": "FieldContent",
+				"value": "was",
+				"type": "Text"
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Beside"
+						}
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Adipisicing in non ad magna labore voluptate labore deserunt do culpa sit incididunt."
+						}
+					}
+				]
+			},
+			"ctas": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"cta_label",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "mouth",
+									"type": "Text"
+								}
+							],
+							[
+								"cta_link",
+								{
+									"__TYPE__": "LinkContent",
+									"key": "fb0e6ac4-b9d6-48a1-80b3-9c698c52118c",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "https://slicemachine.dev"
+									}
+								}
+							],
+							[
+								"cta_primary",
+								{
+									"__TYPE__": "BooleanContent",
+									"value": false
+								}
+							]
+						]
+					}
+				]
+			},
+			"dashboard_image": {
+				"__TYPE__": "ImageContent",
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f",
+					"width": 6597,
+					"height": 4398
+				},
+				"url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f",
+				"width": 6597,
+				"height": 4398,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"alt": "parent"
+			}
+		},
+		"items": []
+	}
+]

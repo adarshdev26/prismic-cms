@@ -6,6 +6,32 @@
   "status": true,
   "json": {
     "Main": {
+      "logo": {
+        "type": "Image",
+        "config": {
+          "label": "logo",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "cta_label": {
+        "type": "Text",
+        "config": {
+          "label": "cta_label",
+          "placeholder": ""
+        }
+      },
+      "cta_link": {
+        "type": "Link",
+        "config": {
+          "label": "cta_link",
+          "placeholder": "",
+          "select": null,
+          "allowTargetBlank": true,
+          "allowText": true,
+          "repeat": false
+        }
+      },
       "links": {
         "type": "Group",
         "config": {
